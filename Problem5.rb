@@ -29,7 +29,7 @@ module ProjectEuler
             end
         end
 
-        puts lcms.uniq.sort[0]
+        lcms.uniq.sort[0]
     end
 
 end

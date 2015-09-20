@@ -17,7 +17,7 @@ module ProjectEuler
             #puts string
         end
 
-        =begin
+=begin
          #transpose to store by column first, not row
          m = Matrix.rows(rows)
          c = m.column_vectors
@@ -27,7 +27,7 @@ module ProjectEuler
          end
 
          puts cols
-         =end
+=end
 
         subs = Array.new
         rows.count.times do |x|

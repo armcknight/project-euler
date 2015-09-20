@@ -58,12 +58,12 @@ puts "problem20: #{problem20}"
 puts "problem21: #{problem21}"
 puts "problem22: #{problem22}"
 puts "problem23: #{problem23}"
-puts "problem24: #{problem24}"
+#puts "problem24: #{problem24}" # broken
 puts "problem25: #{problem25}"
 puts "problem27: #{problem27}"
 puts "problem28: #{problem28}"
 puts "problem30: #{problem30}"
-puts "problem33: #{problem33}"
+#puts "problem33: #{problem33}" # broken
 puts "problem34: #{problem34}"
 puts "problem35: #{problem35}"
 puts "problem36: #{problem36}"
@@ -73,15 +73,15 @@ puts "problem41: #{problem41}"
 puts "problem42: #{problem42}"
 puts "problem45: #{problem45}"
 puts "problem53: #{problem53}"
-puts "problem54: #{problem54}"
+#puts "problem54: #{problem54}" # no solution yet
 puts "problem55: #{problem55}"
 puts "problem56: #{problem56}"
 puts "problem57: #{problem57}"
 puts "problem63: #{problem63}"
 puts "problem67: #{problem67}"
-puts "problem70: #{problem70}"
+#puts "problem70: #{problem70}" # runs too long
 puts "problem81: #{problem81}"
 puts "problem89: #{problem89}"
-puts "problem92: #{problem92}"
+#puts "problem92: #{problem92}" # runs too long
 puts "problem206: #{problem206}"
 

@@ -10,7 +10,7 @@ module ProjectEuler
         a.each do |x|
             sum += x.to_i
         end
-        puts sum
+        sum
     end
     
 end

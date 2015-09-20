@@ -14,7 +14,7 @@ module ProjectEuler
             end
             total, n, sum = total + ( n * sum ), n + 1, 0
         end
-        puts total
+        total
     end
     
 end

@@ -12,10 +12,11 @@ module ProjectEuler
             if isPrime(n) && isRightTruncatablePrime(n) && isLeftTruncatablePrime(n)
                 sum += n
                 count += 1
-                puts "#{count}: adding #{n}; sum = #{sum}"
+                #puts "#{count}: adding #{n}; sum = #{sum}"
             end
             n += 1
         end
+        sum
     end
     
 end

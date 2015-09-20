@@ -8,21 +8,27 @@ module ProjectEuler
         triN, pentN, hexN = 285, 1, 1
         while true
             tri, pent, hex = nthTriangularNumber(triN), nthPentagonalNumber(pentN), nthHexagonalNumber(hexN)
-            puts "T(#{triN})=#{tri} == P(#{pentN})=#{pent} == H(#{hexN})=#{hex}" if tri == pent && tri == hex
+            #puts "T(#{triN})=#{tri} == P(#{pentN})=#{pent} == H(#{hexN})=#{hex}" if tri == pent && tri == hex
+            if tri == pent && tri == hex
+                if triN > 285
+                    return tri
+                end
+            end
+
             if tri < pent
                 if tri < hex
                     triN += 1
-                    else
+                else
                     if hex < pent
                         hexN += 1
-                        else
+                    else
                         pentN += 1
                     end
                 end
-                else
+            else
                 if pent < hex
                     pentN += 1
-                    else
+                else
                     hexN += 1
                 end
             end

@@ -12,11 +12,13 @@ module ProjectEuler
                     ((simplestTerms(x,y)<=>simplestTerms((n = a[1].to_i), (d = b[0].to_i))) == 0 && a[0] == b[1]) &&
                     (a[0] != b[0] && a[1] != b[1] && a[0] != a[1] && b[0] != b[1]))
                     num, den = num * n, den * d
-                    puts "#{x}/#{y} == #{n}/#{d}"
+                    # puts "#{x}/#{y} == #{n}/#{d}"
                 end
             end
         end
-        puts "#{(r = simplestTerms(num,den))[0]}/#{r[1]}"
+        ratio = simplestTerms(num,den)
+        ratio[1] # return the denominator
+        # puts "#{(r = simplestTerms(num,den))[0]}/#{r[1]}"
     end
     
 end

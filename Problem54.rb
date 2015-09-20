@@ -13,10 +13,9 @@ module ProjectEuler
             hand1, hand2 = hands[0].split(","), hands[1].split(",")
             [hand1,hand2].each do |hand|
                 hand.sort!{|cardA,cardB|values.index(cardA[0])<=>values.index(cardB[0])}
-                
             end
-            
         end
+        
     end
     
 end

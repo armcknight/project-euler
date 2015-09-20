@@ -6,7 +6,22 @@ module ProjectEuler
     # 70: minimize n/totient(n) where n in [1,10^7] and totient(n) is a permutation of n (8319823)
     def problem70
         # generate all (n,totient(n),n/totient(n)) triplets and sort by the ratio, then iterate to check for permutations and return the one with the minimal ratio
-        (4..10e7).inject(Array.new){|triplets,n| triplets << [n,totient(n),1.0*n/totient(n)]}.sort{|a,b|a[2]<=>b[2]}.take{|t|isPermutation(t[0].to_s.split(""),t[1].to_s.split(""))}[0]
+        minRatio = 2
+        number = 4
+        10e7.to_i.downto(4) { |n|
+            t = totient(n)
+            next if t == number
+#            puts "n = #{n}; totient = #{t}"
+            ratio = 1.0 * n / t
+            next if ratio >= minRatio
+#                puts "testing min: #{n}/#{t} = #{ratio}"
+            next if !isPermutation(t.to_s.split(""), n.to_s.split(""))
+
+            puts "found next minimization: #{n}"
+            minRatio = ratio
+            number = n
+        }
+        return number
 
         #    lim = 10**7
         #    #a = 176569

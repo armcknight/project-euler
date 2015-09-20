@@ -8,8 +8,13 @@ module ProjectEuler
         max = 0
         1.upto(9) do |n|
             (1..n).to_a.permutation.to_a.each do |x|
+                next if x[-1] % 2 == 0
+                next if x.reduce(:+) % 3 == 0
                 test = x.join.to_i
-                max = test if isPrime(test) && test > max
+                next if max >= test
+                next if !isPrime(test)
+                max = test
+                return max if max > 8000000
             end
         end
         max

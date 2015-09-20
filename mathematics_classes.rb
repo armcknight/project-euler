@@ -51,12 +51,12 @@ module Mathematics
 			if n > 1
 				i = factRoot n
 				puts "n=#{n}, i=#{i}; #{toString}"
-				swap @elements, -i, -(i + 1)
+				swap @elements, -(i-1), -i
 				return permuteNTimesLexicographically (n - factorial(i))
 			elsif n == 1
 				return swap @elements, -1, -2
 			else
-				return @lements
+				return @elements
 			end
 		end
 		

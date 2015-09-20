@@ -1,5 +1,7 @@
 require "./mathematics_functions"
+require "./language"
 include Mathematics
+include Language
 
 module ProjectEuler
 

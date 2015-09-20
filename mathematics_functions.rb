@@ -226,10 +226,8 @@ module Mathematics
 	#returns true if all the elements in array a exist in array b
 	def isPermutation a, b
 		return false if a.count != b.count
-		a.uniq.each do |x|
-			return false if !(a.count(x) == b.count(x))
-		end
-		true
+        return false if a.uniq.count != b.uniq.count
+		return a.sort == b.sort
 	end
 	
 	#returns the result of euler's totient function for n

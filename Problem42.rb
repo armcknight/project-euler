@@ -12,7 +12,7 @@ def problem42
         score = word.split("").inject(0) {|sum,char| sum += ('A'..'Z').to_a.index(char) + 1}
         amount += 1 if isTriangular(score)
     end
-    puts amount
+    amount
 end
 
 end
