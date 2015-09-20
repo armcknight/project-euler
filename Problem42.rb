@@ -1,5 +1,7 @@
-require "./mathematics_classes"
+require "./mathematics_functions"
 include Mathematics
+
+module ProjectEuler
 
 # 42: count triangle words (word whose sum of constituent letter alphabetical positions is a triangle number) in list of words (162)
 def problem42
@@ -11,4 +13,6 @@ def problem42
         amount += 1 if isTriangular(score)
     end
     puts amount
+end
+
 end

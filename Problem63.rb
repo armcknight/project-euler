@@ -11,7 +11,7 @@ def problem63
             if digits == power
                 count += 1
                 puts "#{number} = #{base}^#{power} and has #{power} digits"
-            elsif digits > power or power > 50
+                elsif digits > power or power > 50
                 over = true
             end
             power += 1
@@ -21,3 +21,5 @@ def problem63
 end
 
 puts problem63
+
+end

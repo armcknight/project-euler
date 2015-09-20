@@ -1,11 +1,15 @@
-require "./mathematics_classes"
+require "./mathematics_functions"
 include Mathematics
 
-# 36: find all numbers under 1,000,000 who are palindromes in base 10 and 2 (872187)
-def problem36
-    sum = 0
-    1.upto(999999) do |x|
-        sum += x if isPalindrome(x) && isPalindrome(decToBin(x))
+module ProjectEuler
+
+    # 36: find all numbers under 1,000,000 who are palindromes in base 10 and 2 (872187)
+    def problem36
+        sum = 0
+        1.upto(999999) do |x|
+            sum += x if isPalindrome(x) && isPalindrome(decToBin(x))
+        end
+        sum
     end
-    sum
+    
 end
