@@ -1,7 +1,11 @@
 # project-euler
 ###My solutions to Project Euler problems [https://projecteuler.net](https://projecteuler.net)
 
-All solutions are in the following format:
+You can run all solutions by running
+
+       ruby all_solutions.rb
+
+Each solution is packaged in its own file named Problem[#].rb in the following format:
 
        # [problem number]: [problem summary] ([answer])
        def problem[problem number]
