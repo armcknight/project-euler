@@ -66,5 +66,5 @@ module Mathematics
 			return "[#{string.chop!.chop!}]"
 		end
 	end
-	
+
 end
