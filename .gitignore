@@ -1,1 +1,8 @@
 .idea
+
+# always ignore the unencrypted versions of solution code
+functions.rb
+language.rb
+mathematics_classes.rb
+mathematics_functions.rb
+Problem*.rb
