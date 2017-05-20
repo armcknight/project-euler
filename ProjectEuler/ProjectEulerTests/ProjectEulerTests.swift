@@ -34,7 +34,11 @@ class ProjectEulerTests: XCTestCase {
     }
 
     func testDivisors() {
-        XCTAssertEqual(35.divisors(), Set([1, 5, 7]))
+        XCTAssertEqual(35.divisors(), Set([1, 5, 7, 35]))
+    }
+
+    func testProperDivisors() {
+        XCTAssertEqual(35.properDivisors(), Set([1, 5, 7]))
     }
 
     func testSum() {
@@ -82,7 +86,7 @@ class ProjectEulerTests: XCTestCase {
 
     func testAllPermutations() {
         let items = [ "a", "b", "c", "d", "e" ]
-        let permutations = allPermutations(items)
+        let permutations = allPermutations(items as [AnyObject])
 
         XCTAssert(permutations.count == factorial(items.count))
         var seenPermutations = [[AnyObject]]()
@@ -96,12 +100,10 @@ class ProjectEulerTests: XCTestCase {
     }
 
     func testLexicographicPermutations() {
-
         let items = ["a", "b", "c", "d" ]
-        permuteLexicographically(items, distance: 5)
-        NSLog("\(allPermutations(items))")
+        permuteLexicographically(items as [AnyObject], distance: 5)
+        NSLog("\(allPermutations(items as [AnyObject]))")
         NSLog("answer: \(items)")
-
     }
     
 }

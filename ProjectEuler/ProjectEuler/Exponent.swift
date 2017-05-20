@@ -21,7 +21,7 @@ func exponentiate<T>(_ base: T, _ power: T) -> T where T: Integer, T: IntegerAri
     var mutablePower = power
     while mutablePower > 1 {
         result *= base
-        mutablePower -= 1
+        mutablePower -= 1 as T
     }
     return result
 }

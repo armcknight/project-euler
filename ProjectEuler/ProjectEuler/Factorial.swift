@@ -15,12 +15,11 @@ postfix func *!<T>(n: T) -> T where T: Integer, T: IntegerArithmetic {
 }
 
 func factorial<T>(_ n: T) -> T where T: Integer, T: IntegerArithmetic {
-    if n <= 1 { return 1 }
-
-    var prod: T = 1
-    for i: T in 2...n {
-        prod *= i
+    var prod = 1 as T
+    var current = 2 as T
+    while (current <= n) {
+        prod *= current
+        current += 1 as T
     }
-    
     return prod
 }
