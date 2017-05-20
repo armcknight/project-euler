@@ -13,6 +13,7 @@
 		494344031C44B1DE00496817 /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494344021C44B1DE00496817 /* IntExtensions.swift */; };
 		494344051C44B24E00496817 /* RomanNumerals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494344041C44B24E00496817 /* RomanNumerals.swift */; };
 		49A3B0231C45FC1600871F54 /* Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A3B0221C45FC1600871F54 /* Statistics.swift */; };
+		49E296F91DE5F4FA0011C864 /* ProjectEulerProblems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E296F81DE5F4FA0011C864 /* ProjectEulerProblems.swift */; };
 		49F4BCDF1C41FFC100B9AF15 /* ProjectEuler.h in Headers */ = {isa = PBXBuildFile; fileRef = 49F4BCDE1C41FFC100B9AF15 /* ProjectEuler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		49F4BCE61C41FFC100B9AF15 /* ProjectEuler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F4BCDB1C41FFC100B9AF15 /* ProjectEuler.framework */; };
 		49F4BCEB1C41FFC100B9AF15 /* ProjectEulerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F4BCEA1C41FFC100B9AF15 /* ProjectEulerTests.swift */; };
@@ -36,6 +37,7 @@
 		494344021C44B1DE00496817 /* IntExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtensions.swift; sourceTree = "<group>"; };
 		494344041C44B24E00496817 /* RomanNumerals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RomanNumerals.swift; sourceTree = "<group>"; };
 		49A3B0221C45FC1600871F54 /* Statistics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Statistics.swift; sourceTree = "<group>"; };
+		49E296F81DE5F4FA0011C864 /* ProjectEulerProblems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectEulerProblems.swift; sourceTree = "<group>"; };
 		49F4BCDB1C41FFC100B9AF15 /* ProjectEuler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ProjectEuler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49F4BCDE1C41FFC100B9AF15 /* ProjectEuler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProjectEuler.h; sourceTree = "<group>"; };
 		49F4BCE01C41FFC100B9AF15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 			children = (
 				49F4BCEA1C41FFC100B9AF15 /* ProjectEulerTests.swift */,
 				49F4BCEC1C41FFC100B9AF15 /* Info.plist */,
+				49E296F81DE5F4FA0011C864 /* ProjectEulerProblems.swift */,
 			);
 			path = ProjectEulerTests;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49F4BCEB1C41FFC100B9AF15 /* ProjectEulerTests.swift in Sources */,
+				49E296F91DE5F4FA0011C864 /* ProjectEulerProblems.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +292,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -328,6 +333,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";

@@ -27,9 +27,9 @@ class ProjectEulerTests: XCTestCase {
 
     func testFactorial() {
         var currentFactorial = 1
-        for i in 1...10 {
+        for i: Int in 1...10 {
             currentFactorial *= i
-            XCTAssertEqual(currentFactorial, i*!)
+            XCTAssertEqual(currentFactorial, factorial(i))
         }
     }
 
