@@ -13,10 +13,10 @@ extension Int {
     /// Return sorted array of integer divisors in `[1,n]`.
     func divisors() -> Set<Int> {
         let end = Int(sqrt(Double(self)))
-        let range = Set(Range(start: 1, end: end + 1))
+        let range = Set((1 ..< end + 1))
         let zeroMods = range.filter({self % $0 == 0})
         var quotients:[Int] = zeroMods.map({self / $0}) + zeroMods
-        quotients.sortInPlace()
+        quotients.sort()
         return Set<Int>(quotients)
     }
 
@@ -36,8 +36,8 @@ extension Int {
 
     func totient() -> Int {
         let factors = self.primeFactors()
-        let denominator = factors.reduce(1, combine: {$0 * $1})
-        return self * factors.reduce(1, combine: {$0 * ($1 - 1) / denominator})
+        let denominator = factors.reduce(1, {$0 * $1})
+        return self * factors.reduce(1, {$0 * ($1 - 1) / denominator})
     }
 
     /// Returns `i` such that `i! <= self < (i + 1)!`

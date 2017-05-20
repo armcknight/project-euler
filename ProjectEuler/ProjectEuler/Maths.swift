@@ -8,7 +8,8 @@
 
 import Foundation
 
-func greatestCommonDivisor(var a:Int, var _ b:Int) -> Int {
+func greatestCommonDivisor(_ a:Int, _ b:Int) -> Int {
+    var a = a, b = b
 
     // GCD(0,v) == v; GCD(u,0) == u; GCD(0,0) == 0
     if (a == 0) {
@@ -51,13 +52,13 @@ func greatestCommonDivisor(var a:Int, var _ b:Int) -> Int {
 
 }
 
-func leastCommonMultiple(a:Int, _ b:Int) -> Int {
+func leastCommonMultiple(_ a:Int, _ b:Int) -> Int {
 
     return a * b / greatestCommonDivisor(a, b)
 
 }
 
-func greatestCommonFactor(a: Int, _ b: Int) -> Int {
+func greatestCommonFactor(_ a: Int, _ b: Int) -> Int {
 
     if b % a == 0 || a % b == 0 {
         return a
@@ -67,23 +68,23 @@ func greatestCommonFactor(a: Int, _ b: Int) -> Int {
         return 1
     }
 
-    return a.primeFactors().intersect(b.primeFactors()).sort().last!
+    return a.primeFactors().intersection(b.primeFactors()).sorted().last!
 
 }
 
 
 // TODO: implement with the Lehmer code or equivalent efficient algorithm
-func allPermutations(items: [AnyObject]) -> [[AnyObject]] {
+func allPermutations(_ items: [AnyObject]) -> [[AnyObject]] {
 
     var permutations = [[AnyObject]]()
     if items.count == 1 { return [items] }
     for object in items {
         let mutableArray = NSMutableArray(array: items)
-        mutableArray.removeObject(object)
+        mutableArray.remove(object)
         let array = mutableArray as NSArray
         for permutation in allPermutations(array as [AnyObject]) {
             var newPermutation = [object]
-            newPermutation.appendContentsOf(permutation)
+            newPermutation.append(contentsOf: permutation)
             permutations.append(newPermutation)
         }
     }
@@ -92,7 +93,8 @@ func allPermutations(items: [AnyObject]) -> [[AnyObject]] {
 }
 
 /// Permute the `items` array so that the ordering of its elements is `distance` steps from the original order in the ordered set of all lexicographic permutations.
-func permuteLexicographically(var items:[AnyObject], distance: Int) {
+func permuteLexicographically(_ items:[AnyObject], distance: Int) {
+    var items = items
     if distance > 1 {
         let i = distance.factorialRoot()
         swap(&items[items.count - 1 - (i - 1)], &items[items.count - 1 - i])

@@ -45,7 +45,6 @@
 		49F4BCEA1C41FFC100B9AF15 /* ProjectEulerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectEulerTests.swift; sourceTree = "<group>"; };
 		49F4BCEC1C41FFC100B9AF15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49F4BCF51C41FFDC00B9AF15 /* Maths.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Maths.swift; sourceTree = "<group>"; };
-		49F4BCF71C4214B300B9AF15 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +69,6 @@
 		49F4BCD11C41FFC100B9AF15 = {
 			isa = PBXGroup;
 			children = (
-				49F4BCF71C4214B300B9AF15 /* MyPlayground.playground */,
 				49F4BCDD1C41FFC100B9AF15 /* ProjectEuler */,
 				49F4BCE91C41FFC100B9AF15 /* ProjectEulerTests */,
 				49F4BCDC1C41FFC100B9AF15 /* Products */,
@@ -174,9 +172,11 @@
 				TargetAttributes = {
 					49F4BCDA1C41FFC100B9AF15 = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0830;
 					};
 					49F4BCE41C41FFC100B9AF15 = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0830;
 					};
 				};
 			};
@@ -356,6 +356,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -373,6 +374,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.amproductions.ProjectEuler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -383,6 +385,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.amproductions.ProjectEulerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -393,6 +396,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.amproductions.ProjectEulerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

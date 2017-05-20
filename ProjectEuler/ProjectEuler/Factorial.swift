@@ -8,13 +8,13 @@
 
 import Foundation
 
-postfix operator *! {}
+postfix operator *!
 
-postfix func *!<T where T: IntegerType, T: IntegerArithmeticType>(n: T) -> T {
+postfix func *!<T>(n: T) -> T where T: Integer, T: IntegerArithmetic {
     return factorial(n)
 }
 
-func factorial<T where T: IntegerType, T: IntegerArithmeticType>(n: T) -> T {
+func factorial<T>(_ n: T) -> T where T: Integer, T: IntegerArithmetic {
     if n <= 1 { return 1 }
 
     var prod: T = 1

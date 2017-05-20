@@ -20,7 +20,7 @@ extension Int {
 
         // TODO: overbars and thousands the same as the logic below
 
-        for var i = 0; i < n/1000; i++ {
+        for i in 0 ..< n/1000 {
             characters.append("M")
         }
         n %= 1000
@@ -39,24 +39,24 @@ extension Int {
             for index in indices {
                 let value = place * index
                 if n >= value {
-                    characters.append(specialCases[places.indexOf(place)!][indices.indexOf(index)!])
+                    characters.append(specialCases[places.index(of: place)!][indices.index(of: index)!])
                     n -= value
                     break
                 }
             }
-            for var i = 0; i < n/place; i++ {
-                characters.append(placeNumerals[places.indexOf(place)!])
+            for i in 0 ..< n/place {
+                characters.append(placeNumerals[places.index(of: place)!])
             }
             n %= place
         }
 
-        return characters.joinWithSeparator("")
+        return characters.joined(separator: "")
 
     }
 
     init?(romanNumeral:String) {
 
-        let characters = Array(romanNumeral.uppercaseString.characters)
+        let characters = Array(romanNumeral.uppercased().characters)
 
         self = 0
 
@@ -76,10 +76,10 @@ extension Int {
             } else if currentCharacter == "C" {
                 if nextCharacter != nil && nextCharacter == "M" {
                     self += 900
-                    position++
+                    position += 1
                 } else if nextCharacter != nil && nextCharacter == "D" {
                     self += 400
-                    position++
+                    position += 1
                 } else {
                     self += 100
                 }
@@ -88,10 +88,10 @@ extension Int {
             } else if currentCharacter == "X" {
                 if nextCharacter != nil && nextCharacter == "C" {
                     self += 90
-                    position++
+                    position += 1
                 } else if nextCharacter != nil && nextCharacter == "L" {
                     self += 40
-                    position++
+                    position += 1
                 } else {
                     self += 10
                 }
@@ -100,16 +100,16 @@ extension Int {
             } else if currentCharacter == "I" {
                 if nextCharacter != nil && nextCharacter == "X" {
                     self += 9
-                    position++
+                    position += 1
                 } else if nextCharacter != nil && nextCharacter == "V" {
                     self += 4
-                    position++
+                    position += 1
                 } else {
                     self += 1
                 }
             }
 
-            position++
+            position += 1
 
         }
 

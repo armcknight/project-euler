@@ -8,20 +8,20 @@
 
 import Foundation
 
-infix operator ** {}
+infix operator **
 
 // Integer case
 
-func **<T where T: IntegerType, T: IntegerArithmeticType>(base: T, power: T) -> T {
+func **<T>(base: T, power: T) -> T where T: Integer, T: IntegerArithmetic {
     return exponentiate(base, power)
 }
 
-func exponentiate<T where T: IntegerType, T: IntegerArithmeticType>(base: T, _ power: T) -> T {
+func exponentiate<T>(_ base: T, _ power: T) -> T where T: Integer, T: IntegerArithmetic {
     var result = base
     var mutablePower = power
     while mutablePower > 1 {
         result *= base
-        mutablePower--
+        mutablePower -= 1
     }
     return result
 }

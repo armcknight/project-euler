@@ -8,38 +8,38 @@
 
 import Foundation
 
-extension SequenceType where Generator.Element == Float {
+extension Sequence where Iterator.Element == Float {
 
     // sum all elements in the collection
     func sum() -> Float {
-        return self.reduce(0, combine: +)
+        return self.reduce(0, +)
     }
 
 }
 
-extension SequenceType where Generator.Element == Float80 {
+extension Sequence where Iterator.Element == Float80 {
 
     // sum all elements in the collection
     func sum() -> Float80 {
-        return self.reduce(0, combine: +)
+        return self.reduce(0, +)
     }
 
 }
 
-extension SequenceType where Generator.Element == Double {
+extension Sequence where Iterator.Element == Double {
 
     // sum all elements in the collection
     func sum() -> Double {
-        return self.reduce(0, combine: +)
+        return self.reduce(0, +)
     }
     
 }
 
-extension SequenceType where Generator.Element == Int {
+extension Sequence where Iterator.Element == Int {
 
     // sum all elements in the collection
     func sum() -> Int {
-        return self.reduce(0, combine: +)
+        return self.reduce(0, +)
     }
 
 }

@@ -13,7 +13,7 @@ class ProjectEulerProblems: XCTestCase {
 
     /// 3: find largest prime factor of 600851475143 (6857)
     func testProblem3() {
-        XCTAssert(600851475143.primeFactors().sort().last! == 6857)
+        XCTAssert(600851475143.primeFactors().sorted().last! == 6857)
     }
 
     /// 5: find smallest positive number evenly divisible by all of the numbers in [1,20] (232792560)

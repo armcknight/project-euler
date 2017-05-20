@@ -65,7 +65,7 @@ class ProjectEulerTests: XCTestCase {
 
         let cases = self.romanNumeralTestCases()
         for testCase in cases {
-            let numericValue: Int = cases.indexOf(testCase)! + 1
+            let numericValue: Int = cases.index(of: testCase)! + 1
             XCTAssertEqual(testCase, numericValue.romanNumeral())
         }
 
@@ -75,7 +75,7 @@ class ProjectEulerTests: XCTestCase {
 
         let cases = self.romanNumeralTestCases()
         for testCase in cases {
-            let numericValue: Int = cases.indexOf(testCase)! + 1
+            let numericValue: Int = cases.index(of: testCase)! + 1
             XCTAssertEqual(Int(romanNumeral: testCase), numericValue)
         }
     }
@@ -90,7 +90,7 @@ class ProjectEulerTests: XCTestCase {
             for item in permutation {
                 XCTAssert(items.contains(item as! String))
             }
-            XCTAssert(!seenPermutations.contains({($0 as! [String]) == (permutation as! [String])}))
+            XCTAssert(!seenPermutations.contains(where: {($0 as! [String]) == (permutation as! [String])}))
             seenPermutations.append(permutation)
         }
     }
