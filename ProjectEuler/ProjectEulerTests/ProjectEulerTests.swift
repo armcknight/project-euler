@@ -81,7 +81,7 @@ class ProjectEulerTests: XCTestCase {
     }
 
     func testAllPermutations() {
-        let items = ["a", "b", "c", "d", "e" ]
+        let items = [ "a", "b", "c", "d", "e" ]
         let permutations = allPermutations(items)
 
         XCTAssert(permutations.count == factorial(items.count))
