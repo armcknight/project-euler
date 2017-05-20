@@ -20,7 +20,7 @@ extension Int {
 
         // TODO: overbars and thousands the same as the logic below
 
-        for i in 0 ..< n/1000 {
+        for _ in 0 ..< n/1000 {
             characters.append("M")
         }
         n %= 1000
@@ -44,7 +44,7 @@ extension Int {
                     break
                 }
             }
-            for i in 0 ..< n/place {
+            for _ in 0 ..< n/place {
                 characters.append(placeNumerals[places.index(of: place)!])
             }
             n %= place
