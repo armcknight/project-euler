@@ -23,6 +23,7 @@ module ProjectEuler
                     end
                 end
                 if found
+                    puts "adding #{prod} = ∏(#{a})"
                     lcms << prod
                     break
                 end

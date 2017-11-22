@@ -72,24 +72,23 @@ func greatestCommonFactor(_ a: Int, _ b: Int) -> Int {
 
 }
 
-
 // TODO: implement with the Lehmer code or equivalent efficient algorithm
-func allPermutations(_ items: [AnyObject]) -> [[AnyObject]] {
-
-    var permutations = [[AnyObject]]()
+func allPermutations<T>(_ items: [T]) -> [[T]] where T: Comparable {
+    var permutations = [[T]]()
     if items.count == 1 { return [items] }
     for object in items {
-        let mutableArray = NSMutableArray(array: items)
-        mutableArray.remove(object)
-        let array = mutableArray as NSArray
-        for permutation in allPermutations(array as [AnyObject]) {
+        var array = [T]()
+        array.append(contentsOf: items)
+        array.remove(at: array.index(where: { param -> Bool in
+            return param == object
+        })!)
+        for permutation in allPermutations(array) {
             var newPermutation = [object]
             newPermutation.append(contentsOf: permutation)
             permutations.append(newPermutation)
         }
     }
     return permutations
-    
 }
 
 /// Permute the `items` array so that the ordering of its elements is `distance` steps from the original order in the ordered set of all lexicographic permutations.

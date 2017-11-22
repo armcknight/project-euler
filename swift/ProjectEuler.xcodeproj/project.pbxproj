@@ -13,6 +13,7 @@
 		494344031C44B1DE00496817 /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494344021C44B1DE00496817 /* IntExtensions.swift */; };
 		494344051C44B24E00496817 /* RomanNumerals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494344041C44B24E00496817 /* RomanNumerals.swift */; };
 		49A3B0231C45FC1600871F54 /* Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A3B0221C45FC1600871F54 /* Statistics.swift */; };
+		49B450BF1ECFFD7C000B662D /* Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B450BE1ECFFD7C000B662D /* Arrays.swift */; };
 		49E296F91DE5F4FA0011C864 /* ProjectEulerProblems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E296F81DE5F4FA0011C864 /* ProjectEulerProblems.swift */; };
 		49F4BCDF1C41FFC100B9AF15 /* ProjectEuler.h in Headers */ = {isa = PBXBuildFile; fileRef = 49F4BCDE1C41FFC100B9AF15 /* ProjectEuler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		49F4BCE61C41FFC100B9AF15 /* ProjectEuler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F4BCDB1C41FFC100B9AF15 /* ProjectEuler.framework */; };
@@ -37,6 +38,7 @@
 		494344021C44B1DE00496817 /* IntExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtensions.swift; sourceTree = "<group>"; };
 		494344041C44B24E00496817 /* RomanNumerals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RomanNumerals.swift; sourceTree = "<group>"; };
 		49A3B0221C45FC1600871F54 /* Statistics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Statistics.swift; sourceTree = "<group>"; };
+		49B450BE1ECFFD7C000B662D /* Arrays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arrays.swift; sourceTree = "<group>"; };
 		49E296F81DE5F4FA0011C864 /* ProjectEulerProblems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectEulerProblems.swift; sourceTree = "<group>"; };
 		49F4BCDB1C41FFC100B9AF15 /* ProjectEuler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ProjectEuler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49F4BCDE1C41FFC100B9AF15 /* ProjectEuler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProjectEuler.h; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				494344001C44AD5C00496817 /* Sum.swift */,
 				49A3B0221C45FC1600871F54 /* Statistics.swift */,
 				49F4BCE01C41FFC100B9AF15 /* Info.plist */,
+				49B450BE1ECFFD7C000B662D /* Arrays.swift */,
 			);
 			path = ProjectEuler;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49A3B0231C45FC1600871F54 /* Statistics.swift in Sources */,
+				49B450BF1ECFFD7C000B662D /* Arrays.swift in Sources */,
 				49F4BCF61C41FFDC00B9AF15 /* Maths.swift in Sources */,
 				494344011C44AD5C00496817 /* Sum.swift in Sources */,
 				494344051C44B24E00496817 /* RomanNumerals.swift in Sources */,

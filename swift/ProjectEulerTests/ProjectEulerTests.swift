@@ -10,6 +10,36 @@ import XCTest
 @testable import ProjectEuler
 
 class ProjectEulerTests: XCTestCase {
+
+    func testSetElementCombinations() {
+        let input: Set<Int> = [1, 2, 3, 4]
+        let cases: [Int: Set<Set<Int>>] = [
+            0: [[]],
+            1: [[1], [2], [3], [4]],
+            2: [[1, 2], [1, 3], [1, 4], [2, 3], [2, 4], [3, 4]],
+            3: [[1, 2, 3], [1, 2, 4], [1, 3, 4], [2, 3, 4]],
+            4: [[1, 2, 3, 4]],
+            5: [],
+        ]
+
+        for (n, result) in cases {
+            let computed: Set<Set<Int>> = input.combinationsRecursive(combinationSize: n)
+
+            XCTAssertEqual(result.count, computed.count)
+
+            var equal = true
+            for element in result {
+                if !computed.contains(where: { param -> Bool in
+                    return param == element
+                }) {
+                    equal = false
+                    break
+                }
+            }
+            
+            XCTAssertTrue(equal)
+        }
+    }
     
     func testGCD() {
         let a = 1000
@@ -86,23 +116,23 @@ class ProjectEulerTests: XCTestCase {
 
     func testAllPermutations() {
         let items = [ "a", "b", "c", "d", "e" ]
-        let permutations = allPermutations(items as [AnyObject])
+        let permutations = allPermutations(items)
 
         XCTAssert(permutations.count == factorial(items.count))
         var seenPermutations = [[AnyObject]]()
         for permutation in permutations {
             for item in permutation {
-                XCTAssert(items.contains(item as! String))
+                XCTAssert(items.contains(item))
             }
-            XCTAssert(!seenPermutations.contains(where: {($0 as! [String]) == (permutation as! [String])}))
-            seenPermutations.append(permutation)
+            XCTAssert(!seenPermutations.contains(where: {($0 as! [String]) == permutation}))
+            seenPermutations.append(permutation as [AnyObject])
         }
     }
 
     func testLexicographicPermutations() {
         let items = ["a", "b", "c", "d" ]
         permuteLexicographically(items as [AnyObject], distance: 5)
-        NSLog("\(allPermutations(items as [AnyObject]))")
+        NSLog("\(allPermutations(items))")
         NSLog("answer: \(items)")
     }
     
