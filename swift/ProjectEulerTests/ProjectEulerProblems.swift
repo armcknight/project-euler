@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import ProjectEuler
+import FastMath
 
 class ProjectEulerProblems: XCTestCase {
 
