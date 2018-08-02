@@ -12,6 +12,7 @@
 		4944C28A2112BEC400E8305B /* Problem5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4944C2892112BEC400E8305B /* Problem5.swift */; };
 		4944C28C2112BEDE00E8305B /* Problem7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4944C28B2112BEDE00E8305B /* Problem7.swift */; };
 		4944C28E2112BEF000E8305B /* Problem9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4944C28D2112BEF000E8305B /* Problem9.swift */; };
+		4944C2902112C59D00E8305B /* Problem10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4944C28F2112C59D00E8305B /* Problem10.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4944C2892112BEC400E8305B /* Problem5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem5.swift; sourceTree = "<group>"; };
 		4944C28B2112BEDE00E8305B /* Problem7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem7.swift; sourceTree = "<group>"; };
 		4944C28D2112BEF000E8305B /* Problem9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem9.swift; sourceTree = "<group>"; };
+		4944C28F2112C59D00E8305B /* Problem10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem10.swift; sourceTree = "<group>"; };
 		49F4BCE51C41FFC100B9AF15 /* ProjectEulerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectEulerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49F4BCEC1C41FFC100B9AF15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C909D697F629A5FEC7E65B7 /* Pods_ProjectEuler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectEuler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,6 +69,7 @@
 				4944C28B2112BEDE00E8305B /* Problem7.swift */,
 				4944C28D2112BEF000E8305B /* Problem9.swift */,
 				4944C2872112BEA900E8305B /* Problem3.swift */,
+				4944C28F2112C59D00E8305B /* Problem10.swift */,
 			);
 			path = ProjectEulerTests;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 			files = (
 				4944C28A2112BEC400E8305B /* Problem5.swift in Sources */,
 				4944C28E2112BEF000E8305B /* Problem9.swift in Sources */,
+				4944C2902112C59D00E8305B /* Problem10.swift in Sources */,
 				4944C28C2112BEDE00E8305B /* Problem7.swift in Sources */,
 				4944C2882112BEA900E8305B /* Problem3.swift in Sources */,
 			);
