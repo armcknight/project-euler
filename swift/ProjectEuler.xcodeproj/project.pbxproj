@@ -8,14 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		1FA351E420233157D094B7A1 /* Pods_ProjectEulerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE43FC58B05ACFF628E31903 /* Pods_ProjectEulerTests.framework */; };
-		49E296F91DE5F4FA0011C864 /* ProjectEulerProblems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E296F81DE5F4FA0011C864 /* ProjectEulerProblems.swift */; };
+		4944C2882112BEA900E8305B /* Problem3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4944C2872112BEA900E8305B /* Problem3.swift */; };
+		4944C28A2112BEC400E8305B /* Problem5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4944C2892112BEC400E8305B /* Problem5.swift */; };
+		4944C28C2112BEDE00E8305B /* Problem7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4944C28B2112BEDE00E8305B /* Problem7.swift */; };
+		4944C28E2112BEF000E8305B /* Problem9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4944C28D2112BEF000E8305B /* Problem9.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0A52E77D36BE708A77834754 /* Pods-ProjectEuler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectEuler.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-ProjectEuler/Pods-ProjectEuler.debug.xcconfig"; sourceTree = "<group>"; };
 		2F01FE7943E380E3330E1F9A /* Pods-ProjectEulerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectEulerTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-ProjectEulerTests/Pods-ProjectEulerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3326C41582338AFF7D1B1A5E /* Pods-ProjectEuler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectEuler.release.xcconfig"; path = "../Pods/Target Support Files/Pods-ProjectEuler/Pods-ProjectEuler.release.xcconfig"; sourceTree = "<group>"; };
-		49E296F81DE5F4FA0011C864 /* ProjectEulerProblems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectEulerProblems.swift; sourceTree = "<group>"; };
+		4944C2872112BEA900E8305B /* Problem3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem3.swift; sourceTree = "<group>"; };
+		4944C2892112BEC400E8305B /* Problem5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem5.swift; sourceTree = "<group>"; };
+		4944C28B2112BEDE00E8305B /* Problem7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem7.swift; sourceTree = "<group>"; };
+		4944C28D2112BEF000E8305B /* Problem9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem9.swift; sourceTree = "<group>"; };
 		49F4BCE51C41FFC100B9AF15 /* ProjectEulerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectEulerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49F4BCEC1C41FFC100B9AF15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C909D697F629A5FEC7E65B7 /* Pods_ProjectEuler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectEuler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,7 +63,10 @@
 			isa = PBXGroup;
 			children = (
 				49F4BCEC1C41FFC100B9AF15 /* Info.plist */,
-				49E296F81DE5F4FA0011C864 /* ProjectEulerProblems.swift */,
+				4944C2892112BEC400E8305B /* Problem5.swift */,
+				4944C28B2112BEDE00E8305B /* Problem7.swift */,
+				4944C28D2112BEF000E8305B /* Problem9.swift */,
+				4944C2872112BEA900E8305B /* Problem3.swift */,
 			);
 			path = ProjectEulerTests;
 			sourceTree = "<group>";
@@ -207,7 +216,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49E296F91DE5F4FA0011C864 /* ProjectEulerProblems.swift in Sources */,
+				4944C28A2112BEC400E8305B /* Problem5.swift in Sources */,
+				4944C28E2112BEF000E8305B /* Problem9.swift in Sources */,
+				4944C28C2112BEDE00E8305B /* Problem7.swift in Sources */,
+				4944C2882112BEA900E8305B /* Problem3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
