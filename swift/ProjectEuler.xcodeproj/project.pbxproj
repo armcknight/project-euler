@@ -103,7 +103,6 @@
 				49F4BCE21C41FFC100B9AF15 /* Frameworks */,
 				49F4BCE31C41FFC100B9AF15 /* Resources */,
 				4ABEF217DC5172CBC60ABB7F /* [CP] Embed Pods Frameworks */,
-				FD52CB8A6BFE4E6463B4986C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,21 +191,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-ProjectEulerTests/Pods-ProjectEulerTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FD52CB8A6BFE4E6463B4986C /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-ProjectEulerTests/Pods-ProjectEulerTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

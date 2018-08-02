@@ -1,18 +1,18 @@
 PODS:
-  - FastMath (0.0.1)
-  - FastMath/Tests (0.0.1)
+  - FastMath (1.0.0)
+  - FastMath/Tests (1.0.0)
 
 DEPENDENCIES:
-  - FastMath (from `../../TwoRingSoft/FastMath`)
-  - FastMath/Tests (from `../../TwoRingSoft/FastMath`)
+  - FastMath (from `../../TwoRingSoft/Frameworks/FastMath`)
+  - FastMath/Tests (from `../../TwoRingSoft/Frameworks/FastMath`)
 
 EXTERNAL SOURCES:
   FastMath:
-    :path: ../../TwoRingSoft/FastMath
+    :path: "../../TwoRingSoft/Frameworks/FastMath"
 
 SPEC CHECKSUMS:
-  FastMath: 8c0aa7d552987b0fc915322f7e3fe5e093e74a9a
+  FastMath: 9fb236a4826c1c81e1778710231aeadf9bc2e68c
 
-PODFILE CHECKSUM: 13eeb88803c37783339cbe5aeef96dc215ac9035
+PODFILE CHECKSUM: 73296ac5a4eed6f2782f853f463e6bdfb2c47399
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.5.3

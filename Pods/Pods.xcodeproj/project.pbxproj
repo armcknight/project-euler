@@ -7,35 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C738EDB6EDAE5C8A34D3C8F3CEEC352 /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC0DCD4640F79E59321A644E3AAAFCC /* Vertex.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		0E7C3AA449E6CC889B01A05C2A65100A /* predicates.c in Sources */ = {isa = PBXBuildFile; fileRef = 646356B75C24A56B43837A515FB6DCD8 /* predicates.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		1276FC975C49F2E860645DCCEE364FB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA7B2E6A6F266EF68C4B272F395409C /* Foundation.framework */; };
-		28061CDF1CCB4EB4CCA9C312220C9ED2 /* VertexSet+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684487052A9C36099E0F060FEC181578 /* VertexSet+Sort.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		2F8790B1A0643250A64ECD19114037E0 /* Pods-ProjectEulerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FB675C004D0C07B4428AEAE56876DB9 /* Pods-ProjectEulerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		384F3F5D2322A960AFFC3983029F2F20 /* FastMathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6748BD33AF9CF5E064CE45B7F36C22 /* FastMathTests.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		3EA01AD9383FED0BE7220F5767349D80 /* Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0828797B87C13E2ABC3C3748171F58 /* Statistics.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		40E21905311421A87689A261FB744F0B /* FastMath-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 799875455AFB3ED08D331ABB9E2A45E2 /* FastMath-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6A69CB77F6E98366CF6E41449C2A70E3 /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C683F201E69C1CB5873BB4ECA3970FE /* Edge.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		6D8AA568C30AE80D881DE6A968CE9C42 /* Exponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D18748F65EB69E123ED6BAE4F1B2EDF /* Exponent.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		6FAAB68E2A1FACDF11FCDEFB9BB0645E /* LocationGraphNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6C95905DDAC06E71899374180AC638 /* LocationGraphNode.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		73E68643A6C737EF3A72C65F317EF6BB /* FastMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A62EEBB1FF501F80755D7BFB71D57D9 /* FastMath.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		7457C0087182CBF23277FD2AE76BB290 /* Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5C9C4191A363AFCB86C6CF37C9D69A /* Orientation.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0D3D9DBEE2AD3CD05A1D3291C993622B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B754992D9840997F698440720703B20 /* Foundation.framework */; };
+		151A0F7274D6C6838E477E721D8F415F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B754992D9840997F698440720703B20 /* Foundation.framework */; };
+		243C9C2570CD71F1602FB57A4781B224 /* RomanNumerals.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6524A103F031674B91BC946197B681 /* RomanNumerals.swift */; };
+		2F8790B1A0643250A64ECD19114037E0 /* Pods-ProjectEulerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CEF6039D1AEEAB8669676ABB216FBD4 /* Pods-ProjectEulerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		338A9CA6ED65483BD477018CAE462CEA /* Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4059C9937F4A6A056003ABE2966476A6 /* Arrays.swift */; };
+		3FAB1EF238E66519FD3680A50073245B /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692A3F86ABF5B1B3B9A2197861029576 /* Edge.swift */; };
+		40E21905311421A87689A261FB744F0B /* FastMath-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DF34F37A0C0B9DF1AF34E22D2431585 /* FastMath-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46B5176F92682B7A3BC2DB48D2530861 /* Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9487C8451A0B9B3AF0DFE3A701A049E5 /* Sum.swift */; };
+		4B294F877B73EEAB742945CE7DE0684B /* LocationGraphNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F432B3E835002DE04152FC8F4AD9AF /* LocationGraphNode.swift */; };
+		5CDF85AC02FD1EC709642B0E307B5384 /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176F01F42C6027014BDB194ED3C5E482 /* Vertex.swift */; };
+		5E4B72E5A91A456CC2AE8F4AF7D41C69 /* predicates.c in Sources */ = {isa = PBXBuildFile; fileRef = CF756FB60B4C053FBA23B8489986E66C /* predicates.c */; };
+		693D97BE8C239CC13C14B12A88611189 /* FastMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B27EB0D338B79A1B713B8872D102EF /* FastMath.swift */; };
+		7603F5A51997CC350C8753D2FCC830A9 /* VertexSet+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CD2D197AC9ADBF67E0DA9617ECEE05 /* VertexSet+Sort.swift */; };
 		7BAEA47FE5D51A68DC2F92CDCC3F48AB /* FastMath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C3402C492EF08B5398BD3EB1B1B8120 /* FastMath.framework */; };
-		8841E21217EDD24F6F05132B676F25E1 /* ProjectEulerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF8E0326DE890CAA98F6B382B6CA8E7 /* ProjectEulerTests.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		95AA41E35EAD33035BA5465C15D9D486 /* Maths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D9BD0A2C4F36F870F8E24FFEE7DDC9 /* Maths.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		98E811C0105A7E79B023DBA989AC9AF4 /* predicates.h in Headers */ = {isa = PBXBuildFile; fileRef = BE9CD1CDDB0BECB8BC2501386513428C /* predicates.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A20669F4FD6E2924EF566F986F99DDC7 /* RomanNumerals.swift in Sources */ = {isa = PBXBuildFile; fileRef = F033189BA853E259062552B089BC0EC0 /* RomanNumerals.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		B64989B2956D9024A8FCB078D2551DE0 /* Pods-ProjectEulerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF86BBD3D24798C6563F55C23BC3A33C /* Pods-ProjectEulerTests-dummy.m */; };
-		B9A90098D2B7E29DB1690D7E03E3B15B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA7B2E6A6F266EF68C4B272F395409C /* Foundation.framework */; };
-		C913152540B622DCBF78E5AC671D4D9C /* Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF3C7609D847A7368C250F2757EB19E /* Arrays.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		CE712AAEC7B9052812518D413F184425 /* VertexSet+Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2DA5528A4242F240E8288DBDC61BB6 /* VertexSet+Geometry.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		D0DECBAFBD6D3496D1EA80C05F0737C6 /* FastMath-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C24E6E05D014C6839175BE626F93FE2 /* FastMath-dummy.m */; };
-		D6C8482C98D30B8E996E607B0B31369A /* DelaunayTriangulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30415BB07596F9D0E859AAD63E9A8063 /* DelaunayTriangulator.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		D9C9BAE8EEF601EF5BA69E5F6C939B39 /* Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3469C0A43511ACB50B6F8D8E006A6F /* Sum.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		EFDD89340A5E43B1F5F370C21772F219 /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913844491B417F3E395595DE487A48EA /* IntExtensions.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		F107081F56D5392D10D063E63C6B8D74 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A780629317DC09D6F1CAADC1858A73F8 /* Triangle.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		F14FB9A0A90C819B2D67DB75AD18C5F2 /* Factorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B09CFFA8A96AB6B43FCECEDDD8FE6D /* Factorial.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		F4DEA79F04200011C1AC2C0093F0CFEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA7B2E6A6F266EF68C4B272F395409C /* Foundation.framework */; };
+		86CAB65EC627247687A002AE8A7CF6CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B754992D9840997F698440720703B20 /* Foundation.framework */; };
+		89560E8874C388452921AAE907B837F0 /* VertexSet+Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D369AA78FB3A858065E1C0ED10E701 /* VertexSet+Geometry.swift */; };
+		8F1DD32BF074E34EA90F9D4089F438B3 /* DelaunayTriangulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2264C8CF25840124979F5989B61C7322 /* DelaunayTriangulator.swift */; };
+		90272AE6D484A3EDE6BF953D828C0A86 /* Factorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB67994753C0C54BDDD9995FAB6CA07 /* Factorial.swift */; };
+		91C24EBBD2A023AC27D743AAB871092C /* ProjectEulerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1174E7C51EE39BB89E376F5E74D2DD06 /* ProjectEulerTests.swift */; };
+		98E811C0105A7E79B023DBA989AC9AF4 /* predicates.h in Headers */ = {isa = PBXBuildFile; fileRef = 913B2835A13F28D611082BC044EB0C5F /* predicates.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2914B4D4B940DA73D105FD6E9378441 /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B9DB23DA7ABA789A53D6F862C44F83 /* IntExtensions.swift */; };
+		B64989B2956D9024A8FCB078D2551DE0 /* Pods-ProjectEulerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CE4E6A05DCB19C80F5C61DEA0C1A36 /* Pods-ProjectEulerTests-dummy.m */; };
+		BE3F5755DD4952C9ABC9D5677FC493F4 /* FastMathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903F0C86B1FFAA1C85FDB6A7703F021E /* FastMathTests.swift */; };
+		C0611FD74358F7B7343DA1028230C654 /* Maths.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E19C166E2575D704A80B8CB7C81EF3 /* Maths.swift */; };
+		DF40D39AD6FD00772EBF38B5F057E6ED /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEC10B97CE509CC1C330213FF980806 /* Triangle.swift */; };
+		ED79218BB31DBF812017CCE20B802848 /* Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBBA78AB5B56DF47F75738F8298FDBE /* Statistics.swift */; };
+		EDB0EC4BBE7681F19C51C8FBEBBA7204 /* Exponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F2EE9E92AADE48555E14885E3971DE /* Exponent.swift */; };
+		F1E4E8EF25336665D6EC7654D2EB24AC /* Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36D5B3A4D8721DC502A70D15EEFCCC0 /* Orientation.swift */; };
+		F2C1D9D8B3E593359AFE1960D1A1BF40 /* FastMath-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9365DED11C35B48B4DA9DCB2752CCF4E /* FastMath-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,52 +56,57 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04BC93E0E65F98D7DA3C986395432E97 /* Pods-ProjectEulerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProjectEulerTests.debug.xcconfig"; sourceTree = "<group>"; };
-		09D9BD0A2C4F36F870F8E24FFEE7DDC9 /* Maths.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Maths.swift; path = Sources/Maths.swift; sourceTree = "<group>"; };
-		0A1B516DBDCA550CB8840A4C53E2EE21 /* FastMath.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FastMath.xcconfig; sourceTree = "<group>"; };
-		0AA7B2E6A6F266EF68C4B272F395409C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		0CF8E0326DE890CAA98F6B382B6CA8E7 /* ProjectEulerTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProjectEulerTests.swift; path = Tests/ProjectEulerTests.swift; sourceTree = "<group>"; };
-		1062D39B4064DF444C4934E089CA2552 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		29FD15BDE4DECFF5EC4C489DF1F7A46F /* Pods-ProjectEulerTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ProjectEulerTests-resources.sh"; sourceTree = "<group>"; };
-		2AB6EE75D3DAAC3AB3F66E828E0D805B /* Pods-ProjectEulerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProjectEulerTests.release.xcconfig"; sourceTree = "<group>"; };
-		2F6C95905DDAC06E71899374180AC638 /* LocationGraphNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationGraphNode.swift; path = Sources/LocationGraphNode.swift; sourceTree = "<group>"; };
-		30415BB07596F9D0E859AAD63E9A8063 /* DelaunayTriangulator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DelaunayTriangulator.swift; path = Sources/DelaunayTriangulator.swift; sourceTree = "<group>"; };
+		10654D2F725207ACB991EC6D7D1F79FE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1174E7C51EE39BB89E376F5E74D2DD06 /* ProjectEulerTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProjectEulerTests.swift; path = Tests/ProjectEulerTests.swift; sourceTree = "<group>"; };
+		176F01F42C6027014BDB194ED3C5E482 /* Vertex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Vertex.swift; path = Sources/Vertex.swift; sourceTree = "<group>"; };
+		1CEF6039D1AEEAB8669676ABB216FBD4 /* Pods-ProjectEulerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ProjectEulerTests-umbrella.h"; sourceTree = "<group>"; };
+		1E10309B665AD4D716D1739AC82BE1C3 /* Pods-ProjectEulerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ProjectEulerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2264C8CF25840124979F5989B61C7322 /* DelaunayTriangulator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DelaunayTriangulator.swift; path = Sources/DelaunayTriangulator.swift; sourceTree = "<group>"; };
+		22F432B3E835002DE04152FC8F4AD9AF /* LocationGraphNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationGraphNode.swift; path = Sources/LocationGraphNode.swift; sourceTree = "<group>"; };
+		26B9DB23DA7ABA789A53D6F862C44F83 /* IntExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IntExtensions.swift; path = Sources/IntExtensions.swift; sourceTree = "<group>"; };
+		273F28BC87021CC7D653677AD678C578 /* FastMath.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FastMath.modulemap; sourceTree = "<group>"; };
+		28D369AA78FB3A858065E1C0ED10E701 /* VertexSet+Geometry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "VertexSet+Geometry.swift"; path = "Sources/VertexSet+Geometry.swift"; sourceTree = "<group>"; };
+		2D1A4EDE2CC4B341B9D42CD523EEC91B /* Pods-ProjectEulerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ProjectEulerTests.modulemap"; sourceTree = "<group>"; };
+		2FEC10B97CE509CC1C330213FF980806 /* Triangle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Triangle.swift; path = Sources/Triangle.swift; sourceTree = "<group>"; };
+		3EC6041E1A5170D91E8593575C3C0F45 /* FastMath.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = FastMath.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4059C9937F4A6A056003ABE2966476A6 /* Arrays.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Arrays.swift; path = Sources/Arrays.swift; sourceTree = "<group>"; };
 		46E1FA402D0CB751A6E0E4DF7C813FF6 /* Pods_ProjectEulerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ProjectEulerTests.framework; path = "Pods-ProjectEulerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C3402C492EF08B5398BD3EB1B1B8120 /* FastMath.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FastMath.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D18748F65EB69E123ED6BAE4F1B2EDF /* Exponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Exponent.swift; path = Sources/Exponent.swift; sourceTree = "<group>"; };
-		52751760B85FF0AA745BDCCCF73D27E3 /* Pods-ProjectEulerTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ProjectEulerTests-frameworks.sh"; sourceTree = "<group>"; };
+		4D57064FFDAFD545EC0EE5A3FC060AAC /* Pods-ProjectEulerTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ProjectEulerTests-frameworks.sh"; sourceTree = "<group>"; };
+		51DBDC747BE8EF9CA6061F7DDAF8D7BC /* FastMath-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FastMath-prefix.pch"; sourceTree = "<group>"; };
+		54F2EE9E92AADE48555E14885E3971DE /* Exponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Exponent.swift; path = Sources/Exponent.swift; sourceTree = "<group>"; };
+		57CD2D197AC9ADBF67E0DA9617ECEE05 /* VertexSet+Sort.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "VertexSet+Sort.swift"; path = "Sources/VertexSet+Sort.swift"; sourceTree = "<group>"; };
 		5959DEFBA3F9072B06E88AAA68CB26EF /* FastMath-Unit-Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "FastMath-Unit-Tests"; path = "FastMath-Unit-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F4EFEAE2D2048A858111243191E9454 /* FastMath.unit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FastMath.unit.xcconfig; sourceTree = "<group>"; };
-		646356B75C24A56B43837A515FB6DCD8 /* predicates.c */ = {isa = PBXFileReference; includeInIndex = 1; name = predicates.c; path = Sources/predicates.c; sourceTree = "<group>"; };
-		6798C195235E727494CB6145E0D5DD1B /* FastMath-Unit-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "FastMath-Unit-Tests-resources.sh"; sourceTree = "<group>"; };
-		684487052A9C36099E0F060FEC181578 /* VertexSet+Sort.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "VertexSet+Sort.swift"; path = "Sources/VertexSet+Sort.swift"; sourceTree = "<group>"; };
-		6C24E6E05D014C6839175BE626F93FE2 /* FastMath-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FastMath-dummy.m"; sourceTree = "<group>"; };
-		799875455AFB3ED08D331ABB9E2A45E2 /* FastMath-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FastMath-umbrella.h"; sourceTree = "<group>"; };
-		7A62EEBB1FF501F80755D7BFB71D57D9 /* FastMath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FastMath.swift; path = Sources/FastMath.swift; sourceTree = "<group>"; };
-		7C2DA5528A4242F240E8288DBDC61BB6 /* VertexSet+Geometry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "VertexSet+Geometry.swift"; path = "Sources/VertexSet+Geometry.swift"; sourceTree = "<group>"; };
-		7C683F201E69C1CB5873BB4ECA3970FE /* Edge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edge.swift; path = Sources/Edge.swift; sourceTree = "<group>"; };
-		7FB675C004D0C07B4428AEAE56876DB9 /* Pods-ProjectEulerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ProjectEulerTests-umbrella.h"; sourceTree = "<group>"; };
-		8B5C9C4191A363AFCB86C6CF37C9D69A /* Orientation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Orientation.swift; path = Sources/Orientation.swift; sourceTree = "<group>"; };
-		913844491B417F3E395595DE487A48EA /* IntExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IntExtensions.swift; path = Sources/IntExtensions.swift; sourceTree = "<group>"; };
+		5BBBA78AB5B56DF47F75738F8298FDBE /* Statistics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Statistics.swift; path = Sources/Statistics.swift; sourceTree = "<group>"; };
+		60492413A6BE1B132006889F551740EC /* Pods-ProjectEulerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProjectEulerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		634FF0EB4883CCB5B6CEF5F4124BA17C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		63CE4E6A05DCB19C80F5C61DEA0C1A36 /* Pods-ProjectEulerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ProjectEulerTests-dummy.m"; sourceTree = "<group>"; };
+		692A3F86ABF5B1B3B9A2197861029576 /* Edge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edge.swift; path = Sources/Edge.swift; sourceTree = "<group>"; };
+		6FB67994753C0C54BDDD9995FAB6CA07 /* Factorial.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Factorial.swift; path = Sources/Factorial.swift; sourceTree = "<group>"; };
+		7DF34F37A0C0B9DF1AF34E22D2431585 /* FastMath-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FastMath-umbrella.h"; sourceTree = "<group>"; };
+		83B27EB0D338B79A1B713B8872D102EF /* FastMath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FastMath.swift; path = Sources/FastMath.swift; sourceTree = "<group>"; };
+		8B102CB1579F22D1BA127E534297D8DA /* Pods-ProjectEulerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ProjectEulerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8B754992D9840997F698440720703B20 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8CF9DB5D11392B988CD912828763870F /* FastMath.unit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FastMath.unit.xcconfig; sourceTree = "<group>"; };
+		903F0C86B1FFAA1C85FDB6A7703F021E /* FastMathTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FastMathTests.swift; path = Tests/FastMathTests.swift; sourceTree = "<group>"; };
+		913B2835A13F28D611082BC044EB0C5F /* predicates.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = predicates.h; path = Sources/predicates.h; sourceTree = "<group>"; };
+		9365DED11C35B48B4DA9DCB2752CCF4E /* FastMath-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FastMath-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9AC0DCD4640F79E59321A644E3AAAFCC /* Vertex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Vertex.swift; path = Sources/Vertex.swift; sourceTree = "<group>"; };
-		9BB498474DD38055AC8F042EFC30ADEE /* Pods-ProjectEulerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ProjectEulerTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9DCC8231CEB8D3DDDF68EB83929383FF /* FastMath-Unit-Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "FastMath-Unit-Tests-frameworks.sh"; sourceTree = "<group>"; };
-		A0B09CFFA8A96AB6B43FCECEDDD8FE6D /* Factorial.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Factorial.swift; path = Sources/Factorial.swift; sourceTree = "<group>"; };
-		A69E2197357768A5A97461F09F1EFCA1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A780629317DC09D6F1CAADC1858A73F8 /* Triangle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Triangle.swift; path = Sources/Triangle.swift; sourceTree = "<group>"; };
-		AAF3C7609D847A7368C250F2757EB19E /* Arrays.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Arrays.swift; path = Sources/Arrays.swift; sourceTree = "<group>"; };
-		B31D173BBB19D2B71B8AF272B41F45F0 /* FastMath-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FastMath-prefix.pch"; sourceTree = "<group>"; };
-		BA0828797B87C13E2ABC3C3748171F58 /* Statistics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Statistics.swift; path = Sources/Statistics.swift; sourceTree = "<group>"; };
-		BBAB0E5EBDF1DA7F7832A5BBD24F6850 /* Pods-ProjectEulerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ProjectEulerTests.modulemap"; sourceTree = "<group>"; };
-		BE9CD1CDDB0BECB8BC2501386513428C /* predicates.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = predicates.h; path = Sources/predicates.h; sourceTree = "<group>"; };
-		EF86BBD3D24798C6563F55C23BC3A33C /* Pods-ProjectEulerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ProjectEulerTests-dummy.m"; sourceTree = "<group>"; };
-		F033189BA853E259062552B089BC0EC0 /* RomanNumerals.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RomanNumerals.swift; path = Sources/RomanNumerals.swift; sourceTree = "<group>"; };
-		F1C435D1857BBBBB99353A4D62BDC893 /* FastMath.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FastMath.modulemap; sourceTree = "<group>"; };
+		9487C8451A0B9B3AF0DFE3A701A049E5 /* Sum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sum.swift; path = Sources/Sum.swift; sourceTree = "<group>"; };
+		ABB4BE564F23A14186D2521E1481B480 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF5B6C449E2179184E3B92D3C6C66DDE /* FastMath-Unit-Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FastMath-Unit-Tests-Info.plist"; sourceTree = "<group>"; };
+		C913C9F04FED368A1082BAE5EA001FC5 /* Pods-ProjectEulerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProjectEulerTests.release.xcconfig"; sourceTree = "<group>"; };
+		CE18466DE73B786AFD19CB9291D80DC9 /* Pods-ProjectEulerTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ProjectEulerTests-resources.sh"; sourceTree = "<group>"; };
+		CF756FB60B4C053FBA23B8489986E66C /* predicates.c */ = {isa = PBXFileReference; includeInIndex = 1; name = predicates.c; path = Sources/predicates.c; sourceTree = "<group>"; };
+		D9E2526F18A9CF46415FC98F1BA54976 /* FastMath-Unit-Tests-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FastMath-Unit-Tests-prefix.pch"; sourceTree = "<group>"; };
+		E0A4024E37435E78820BE946D0143BB0 /* FastMath-Unit-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "FastMath-Unit-Tests-resources.sh"; sourceTree = "<group>"; };
+		E36D5B3A4D8721DC502A70D15EEFCCC0 /* Orientation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Orientation.swift; path = Sources/Orientation.swift; sourceTree = "<group>"; };
+		E5E19C166E2575D704A80B8CB7C81EF3 /* Maths.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Maths.swift; path = Sources/Maths.swift; sourceTree = "<group>"; };
+		EB096B8BD081C8EA2D3441123525359F /* FastMath-Unit-Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "FastMath-Unit-Tests-frameworks.sh"; sourceTree = "<group>"; };
+		EFECE4C817F6BF25789275FBAC9467F6 /* FastMath.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FastMath.xcconfig; sourceTree = "<group>"; };
+		F23677039D2ECDCB3EF0C10B50F2C75C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB5D53CB4E2D57C3AF709D7CBCB8E67B /* FastMath.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FastMath.framework; path = FastMath.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB6748BD33AF9CF5E064CE45B7F36C22 /* FastMathTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FastMathTests.swift; path = Tests/FastMathTests.swift; sourceTree = "<group>"; };
-		FC34DDEBFE716BE132C2FE99169D70DC /* Pods-ProjectEulerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ProjectEulerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FF3469C0A43511ACB50B6F8D8E006A6F /* Sum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sum.swift; path = Sources/Sum.swift; sourceTree = "<group>"; };
+		FE6524A103F031674B91BC946197B681 /* RomanNumerals.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RomanNumerals.swift; path = Sources/RomanNumerals.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9A90098D2B7E29DB1690D7E03E3B15B /* Foundation.framework in Frameworks */,
+				151A0F7274D6C6838E477E721D8F415F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,7 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BAEA47FE5D51A68DC2F92CDCC3F48AB /* FastMath.framework in Frameworks */,
-				1276FC975C49F2E860645DCCEE364FB0 /* Foundation.framework in Frameworks */,
+				86CAB65EC627247687A002AE8A7CF6CA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,7 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4DEA79F04200011C1AC2C0093F0CFEC /* Foundation.framework in Frameworks */,
+				0D3D9DBEE2AD3CD05A1D3291C993622B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,70 +141,70 @@
 		089BC899C08CF8D1C088A4B59B1FC0AD /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BC4B65279022999FA747A1B88406C5CD /* Pods-ProjectEulerTests */,
+				10A02F45631A776720F04B3A60BB775B /* Pods-ProjectEulerTests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		0EFFDED3E3252100971DAAEDAB32FFC9 /* iOS */ = {
+		10A02F45631A776720F04B3A60BB775B /* Pods-ProjectEulerTests */ = {
 			isa = PBXGroup;
 			children = (
-				0AA7B2E6A6F266EF68C4B272F395409C /* Foundation.framework */,
+				F23677039D2ECDCB3EF0C10B50F2C75C /* Info.plist */,
+				2D1A4EDE2CC4B341B9D42CD523EEC91B /* Pods-ProjectEulerTests.modulemap */,
+				1E10309B665AD4D716D1739AC82BE1C3 /* Pods-ProjectEulerTests-acknowledgements.markdown */,
+				8B102CB1579F22D1BA127E534297D8DA /* Pods-ProjectEulerTests-acknowledgements.plist */,
+				63CE4E6A05DCB19C80F5C61DEA0C1A36 /* Pods-ProjectEulerTests-dummy.m */,
+				4D57064FFDAFD545EC0EE5A3FC060AAC /* Pods-ProjectEulerTests-frameworks.sh */,
+				CE18466DE73B786AFD19CB9291D80DC9 /* Pods-ProjectEulerTests-resources.sh */,
+				1CEF6039D1AEEAB8669676ABB216FBD4 /* Pods-ProjectEulerTests-umbrella.h */,
+				60492413A6BE1B132006889F551740EC /* Pods-ProjectEulerTests.debug.xcconfig */,
+				C913C9F04FED368A1082BAE5EA001FC5 /* Pods-ProjectEulerTests.release.xcconfig */,
 			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		104546830C7236132B2FF8CDE8BF10D1 /* FastMath */ = {
-			isa = PBXGroup;
-			children = (
-				AAF3C7609D847A7368C250F2757EB19E /* Arrays.swift */,
-				30415BB07596F9D0E859AAD63E9A8063 /* DelaunayTriangulator.swift */,
-				7C683F201E69C1CB5873BB4ECA3970FE /* Edge.swift */,
-				4D18748F65EB69E123ED6BAE4F1B2EDF /* Exponent.swift */,
-				A0B09CFFA8A96AB6B43FCECEDDD8FE6D /* Factorial.swift */,
-				7A62EEBB1FF501F80755D7BFB71D57D9 /* FastMath.swift */,
-				913844491B417F3E395595DE487A48EA /* IntExtensions.swift */,
-				2F6C95905DDAC06E71899374180AC638 /* LocationGraphNode.swift */,
-				09D9BD0A2C4F36F870F8E24FFEE7DDC9 /* Maths.swift */,
-				8B5C9C4191A363AFCB86C6CF37C9D69A /* Orientation.swift */,
-				646356B75C24A56B43837A515FB6DCD8 /* predicates.c */,
-				BE9CD1CDDB0BECB8BC2501386513428C /* predicates.h */,
-				F033189BA853E259062552B089BC0EC0 /* RomanNumerals.swift */,
-				BA0828797B87C13E2ABC3C3748171F58 /* Statistics.swift */,
-				FF3469C0A43511ACB50B6F8D8E006A6F /* Sum.swift */,
-				A780629317DC09D6F1CAADC1858A73F8 /* Triangle.swift */,
-				9AC0DCD4640F79E59321A644E3AAAFCC /* Vertex.swift */,
-				7C2DA5528A4242F240E8288DBDC61BB6 /* VertexSet+Geometry.swift */,
-				684487052A9C36099E0F060FEC181578 /* VertexSet+Sort.swift */,
-				A2AE2427500778005A2EC35C71B3178F /* Support Files */,
-				CE5311074135876C09EC9385FD197E1D /* Tests */,
-			);
-			name = FastMath;
-			path = ../../../TwoRingSoft/FastMath;
+			name = "Pods-ProjectEulerTests";
+			path = "Target Support Files/Pods-ProjectEulerTests";
 			sourceTree = "<group>";
 		};
 		26EEF834D0923E332434BD5C96EDB098 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				4C3402C492EF08B5398BD3EB1B1B8120 /* FastMath.framework */,
-				0EFFDED3E3252100971DAAEDAB32FFC9 /* iOS */,
+				ED03089C845825DCE1190F3ECCC2AE91 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4E34673B0E50081A4FDA2E45C96E8FB5 /* Development Pods */ = {
+		33C7CCC0C384D69355E5D49B061E317C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				104546830C7236132B2FF8CDE8BF10D1 /* FastMath */,
+				C8096DE586EA297F7BE32E0A49A1A7FB /* FastMath */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7CCEA3FA48D03040F971A7978334E3AC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				273F28BC87021CC7D653677AD678C578 /* FastMath.modulemap */,
+				EFECE4C817F6BF25789275FBAC9467F6 /* FastMath.xcconfig */,
+				9365DED11C35B48B4DA9DCB2752CCF4E /* FastMath-dummy.m */,
+				51DBDC747BE8EF9CA6061F7DDAF8D7BC /* FastMath-prefix.pch */,
+				7DF34F37A0C0B9DF1AF34E22D2431585 /* FastMath-umbrella.h */,
+				EB096B8BD081C8EA2D3441123525359F /* FastMath-Unit-Tests-frameworks.sh */,
+				BF5B6C449E2179184E3B92D3C6C66DDE /* FastMath-Unit-Tests-Info.plist */,
+				D9E2526F18A9CF46415FC98F1BA54976 /* FastMath-Unit-Tests-prefix.pch */,
+				E0A4024E37435E78820BE946D0143BB0 /* FastMath-Unit-Tests-resources.sh */,
+				8CF9DB5D11392B988CD912828763870F /* FastMath.unit.xcconfig */,
+				ABB4BE564F23A14186D2521E1481B480 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../../../Personal/project-euler/Pods/Target Support Files/FastMath";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				4E34673B0E50081A4FDA2E45C96E8FB5 /* Development Pods */,
+				33C7CCC0C384D69355E5D49B061E317C /* Development Pods */,
 				26EEF834D0923E332434BD5C96EDB098 /* Frameworks */,
 				7E8FF99BD575D834EC5BD361D7189CDF /* Products */,
 				089BC899C08CF8D1C088A4B59B1FC0AD /* Targets Support Files */,
@@ -216,48 +221,61 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A2AE2427500778005A2EC35C71B3178F /* Support Files */ = {
+		916E530291F14851E08936E713A48D20 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				F1C435D1857BBBBB99353A4D62BDC893 /* FastMath.modulemap */,
-				0A1B516DBDCA550CB8840A4C53E2EE21 /* FastMath.xcconfig */,
-				6C24E6E05D014C6839175BE626F93FE2 /* FastMath-dummy.m */,
-				B31D173BBB19D2B71B8AF272B41F45F0 /* FastMath-prefix.pch */,
-				799875455AFB3ED08D331ABB9E2A45E2 /* FastMath-umbrella.h */,
-				9DCC8231CEB8D3DDDF68EB83929383FF /* FastMath-Unit-Tests-frameworks.sh */,
-				6798C195235E727494CB6145E0D5DD1B /* FastMath-Unit-Tests-resources.sh */,
-				5F4EFEAE2D2048A858111243191E9454 /* FastMath.unit.xcconfig */,
-				A69E2197357768A5A97461F09F1EFCA1 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../../Personal/project-euler/Pods/Target Support Files/FastMath";
-			sourceTree = "<group>";
-		};
-		BC4B65279022999FA747A1B88406C5CD /* Pods-ProjectEulerTests */ = {
-			isa = PBXGroup;
-			children = (
-				1062D39B4064DF444C4934E089CA2552 /* Info.plist */,
-				BBAB0E5EBDF1DA7F7832A5BBD24F6850 /* Pods-ProjectEulerTests.modulemap */,
-				FC34DDEBFE716BE132C2FE99169D70DC /* Pods-ProjectEulerTests-acknowledgements.markdown */,
-				9BB498474DD38055AC8F042EFC30ADEE /* Pods-ProjectEulerTests-acknowledgements.plist */,
-				EF86BBD3D24798C6563F55C23BC3A33C /* Pods-ProjectEulerTests-dummy.m */,
-				52751760B85FF0AA745BDCCCF73D27E3 /* Pods-ProjectEulerTests-frameworks.sh */,
-				29FD15BDE4DECFF5EC4C489DF1F7A46F /* Pods-ProjectEulerTests-resources.sh */,
-				7FB675C004D0C07B4428AEAE56876DB9 /* Pods-ProjectEulerTests-umbrella.h */,
-				04BC93E0E65F98D7DA3C986395432E97 /* Pods-ProjectEulerTests.debug.xcconfig */,
-				2AB6EE75D3DAAC3AB3F66E828E0D805B /* Pods-ProjectEulerTests.release.xcconfig */,
-			);
-			name = "Pods-ProjectEulerTests";
-			path = "Target Support Files/Pods-ProjectEulerTests";
-			sourceTree = "<group>";
-		};
-		CE5311074135876C09EC9385FD197E1D /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				FB6748BD33AF9CF5E064CE45B7F36C22 /* FastMathTests.swift */,
-				0CF8E0326DE890CAA98F6B382B6CA8E7 /* ProjectEulerTests.swift */,
+				903F0C86B1FFAA1C85FDB6A7703F021E /* FastMathTests.swift */,
+				1174E7C51EE39BB89E376F5E74D2DD06 /* ProjectEulerTests.swift */,
 			);
 			name = Tests;
+			sourceTree = "<group>";
+		};
+		C59CA42AAE3CB39199526624F1BBC476 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3EC6041E1A5170D91E8593575C3C0F45 /* FastMath.podspec */,
+				634FF0EB4883CCB5B6CEF5F4124BA17C /* LICENSE */,
+				10654D2F725207ACB991EC6D7D1F79FE /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C8096DE586EA297F7BE32E0A49A1A7FB /* FastMath */ = {
+			isa = PBXGroup;
+			children = (
+				4059C9937F4A6A056003ABE2966476A6 /* Arrays.swift */,
+				2264C8CF25840124979F5989B61C7322 /* DelaunayTriangulator.swift */,
+				692A3F86ABF5B1B3B9A2197861029576 /* Edge.swift */,
+				54F2EE9E92AADE48555E14885E3971DE /* Exponent.swift */,
+				6FB67994753C0C54BDDD9995FAB6CA07 /* Factorial.swift */,
+				83B27EB0D338B79A1B713B8872D102EF /* FastMath.swift */,
+				26B9DB23DA7ABA789A53D6F862C44F83 /* IntExtensions.swift */,
+				22F432B3E835002DE04152FC8F4AD9AF /* LocationGraphNode.swift */,
+				E5E19C166E2575D704A80B8CB7C81EF3 /* Maths.swift */,
+				E36D5B3A4D8721DC502A70D15EEFCCC0 /* Orientation.swift */,
+				CF756FB60B4C053FBA23B8489986E66C /* predicates.c */,
+				913B2835A13F28D611082BC044EB0C5F /* predicates.h */,
+				FE6524A103F031674B91BC946197B681 /* RomanNumerals.swift */,
+				5BBBA78AB5B56DF47F75738F8298FDBE /* Statistics.swift */,
+				9487C8451A0B9B3AF0DFE3A701A049E5 /* Sum.swift */,
+				2FEC10B97CE509CC1C330213FF980806 /* Triangle.swift */,
+				176F01F42C6027014BDB194ED3C5E482 /* Vertex.swift */,
+				28D369AA78FB3A858065E1C0ED10E701 /* VertexSet+Geometry.swift */,
+				57CD2D197AC9ADBF67E0DA9617ECEE05 /* VertexSet+Sort.swift */,
+				C59CA42AAE3CB39199526624F1BBC476 /* Pod */,
+				7CCEA3FA48D03040F971A7978334E3AC /* Support Files */,
+				916E530291F14851E08936E713A48D20 /* Tests */,
+			);
+			name = FastMath;
+			path = ../../../TwoRingSoft/Frameworks/FastMath;
+			sourceTree = "<group>";
+		};
+		ED03089C845825DCE1190F3ECCC2AE91 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8B754992D9840997F698440720703B20 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,7 +305,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EBA8DF3B12F1DC6CEC5ACD2F23A8813A /* Build configuration list for PBXNativeTarget "FastMath-Unit-Tests" */;
 			buildPhases = (
-				D2F69F19095F9EEF3CF88DAB3E83F791 /* Sources */,
+				F91BD1B9550F4F6A51817528BF19B88D /* Sources */,
 				37844040CC279CCF3DBBA7C7AA69E640 /* Frameworks */,
 				95FE69D41925FF8311AB7767919C6F2D /* [CP] Embed Pods Frameworks */,
 				4B5368AB4A20E615349211C08D1AAAC3 /* [CP] Copy Pods Resources */,
@@ -306,7 +324,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8109F56509C314D8F14ABE5FDBA27360 /* Build configuration list for PBXNativeTarget "FastMath" */;
 			buildPhases = (
-				67E3E773C06E1FF51D791D86CC130D96 /* Sources */,
+				DB685F5F795D312FFD423DBD4C2A5D36 /* Sources */,
 				07FB293B27E719B29C61D367ADFAA64A /* Frameworks */,
 				22669F713864758D322E17ADA861DF40 /* Headers */,
 			);
@@ -343,8 +361,8 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -410,38 +428,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67E3E773C06E1FF51D791D86CC130D96 /* Sources */ = {
+		DB685F5F795D312FFD423DBD4C2A5D36 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C913152540B622DCBF78E5AC671D4D9C /* Arrays.swift in Sources */,
-				D6C8482C98D30B8E996E607B0B31369A /* DelaunayTriangulator.swift in Sources */,
-				6A69CB77F6E98366CF6E41449C2A70E3 /* Edge.swift in Sources */,
-				6D8AA568C30AE80D881DE6A968CE9C42 /* Exponent.swift in Sources */,
-				F14FB9A0A90C819B2D67DB75AD18C5F2 /* Factorial.swift in Sources */,
-				D0DECBAFBD6D3496D1EA80C05F0737C6 /* FastMath-dummy.m in Sources */,
-				73E68643A6C737EF3A72C65F317EF6BB /* FastMath.swift in Sources */,
-				EFDD89340A5E43B1F5F370C21772F219 /* IntExtensions.swift in Sources */,
-				6FAAB68E2A1FACDF11FCDEFB9BB0645E /* LocationGraphNode.swift in Sources */,
-				95AA41E35EAD33035BA5465C15D9D486 /* Maths.swift in Sources */,
-				7457C0087182CBF23277FD2AE76BB290 /* Orientation.swift in Sources */,
-				0E7C3AA449E6CC889B01A05C2A65100A /* predicates.c in Sources */,
-				A20669F4FD6E2924EF566F986F99DDC7 /* RomanNumerals.swift in Sources */,
-				3EA01AD9383FED0BE7220F5767349D80 /* Statistics.swift in Sources */,
-				D9C9BAE8EEF601EF5BA69E5F6C939B39 /* Sum.swift in Sources */,
-				F107081F56D5392D10D063E63C6B8D74 /* Triangle.swift in Sources */,
-				0C738EDB6EDAE5C8A34D3C8F3CEEC352 /* Vertex.swift in Sources */,
-				CE712AAEC7B9052812518D413F184425 /* VertexSet+Geometry.swift in Sources */,
-				28061CDF1CCB4EB4CCA9C312220C9ED2 /* VertexSet+Sort.swift in Sources */,
+				338A9CA6ED65483BD477018CAE462CEA /* Arrays.swift in Sources */,
+				8F1DD32BF074E34EA90F9D4089F438B3 /* DelaunayTriangulator.swift in Sources */,
+				3FAB1EF238E66519FD3680A50073245B /* Edge.swift in Sources */,
+				EDB0EC4BBE7681F19C51C8FBEBBA7204 /* Exponent.swift in Sources */,
+				90272AE6D484A3EDE6BF953D828C0A86 /* Factorial.swift in Sources */,
+				F2C1D9D8B3E593359AFE1960D1A1BF40 /* FastMath-dummy.m in Sources */,
+				693D97BE8C239CC13C14B12A88611189 /* FastMath.swift in Sources */,
+				A2914B4D4B940DA73D105FD6E9378441 /* IntExtensions.swift in Sources */,
+				4B294F877B73EEAB742945CE7DE0684B /* LocationGraphNode.swift in Sources */,
+				C0611FD74358F7B7343DA1028230C654 /* Maths.swift in Sources */,
+				F1E4E8EF25336665D6EC7654D2EB24AC /* Orientation.swift in Sources */,
+				5E4B72E5A91A456CC2AE8F4AF7D41C69 /* predicates.c in Sources */,
+				243C9C2570CD71F1602FB57A4781B224 /* RomanNumerals.swift in Sources */,
+				ED79218BB31DBF812017CCE20B802848 /* Statistics.swift in Sources */,
+				46B5176F92682B7A3BC2DB48D2530861 /* Sum.swift in Sources */,
+				DF40D39AD6FD00772EBF38B5F057E6ED /* Triangle.swift in Sources */,
+				5CDF85AC02FD1EC709642B0E307B5384 /* Vertex.swift in Sources */,
+				89560E8874C388452921AAE907B837F0 /* VertexSet+Geometry.swift in Sources */,
+				7603F5A51997CC350C8753D2FCC830A9 /* VertexSet+Sort.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2F69F19095F9EEF3CF88DAB3E83F791 /* Sources */ = {
+		F91BD1B9550F4F6A51817528BF19B88D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				384F3F5D2322A960AFFC3983029F2F20 /* FastMathTests.swift in Sources */,
-				8841E21217EDD24F6F05132B676F25E1 /* ProjectEulerTests.swift in Sources */,
+				BE3F5755DD4952C9ABC9D5677FC493F4 /* FastMathTests.swift in Sources */,
+				91C24EBBD2A023AC27D743AAB871092C /* ProjectEulerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,30 +481,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		226EE49F370058171F5A5FAFA2E8D273 /* Debug */ = {
+		11334CD2480087C51D88D6C7477D7B5A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F4EFEAE2D2048A858111243191E9454 /* FastMath.unit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-lswiftSwiftOnoneSupport",
-				);
-				PRODUCT_NAME = "FastMath-Unit-Tests";
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		5C21BD42BC0804863458A378E9D68E75 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A1B516DBDCA550CB8840A4C53E2EE21 /* FastMath.xcconfig */;
+			baseConfigurationReference = EFECE4C817F6BF25789275FBAC9467F6 /* FastMath.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -500,40 +497,46 @@
 				GCC_PREFIX_HEADER = "Target Support Files/FastMath/FastMath-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/FastMath/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/FastMath/FastMath.modulemap";
+				PRODUCT_MODULE_NAME = FastMath;
 				PRODUCT_NAME = FastMath;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		5D93140E4FBA88A4245734D14394193A /* Release */ = {
+		3A7EF68DCD0A5CB4C2AA4CC9B6BE06F1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F4EFEAE2D2048A858111243191E9454 /* FastMath.unit.xcconfig */;
+			baseConfigurationReference = 8CF9DB5D11392B988CD912828763870F /* FastMath.unit.xcconfig */;
 			buildSettings = {
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				GCC_PREFIX_HEADER = "Target Support Files/FastMath/FastMath-Unit-Tests-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FastMath/FastMath-Unit-Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_NAME = "FastMath-Unit-Tests";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		7C07ED8089F70A31B83996A8910D7F18 /* Debug */ = {
+		553022A828EE1991F07D2D73F565AEF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -543,10 +546,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -554,6 +559,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -562,6 +568,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -586,14 +593,13 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		98F29E7567052F62660DDD7069ADF73C /* Release */ = {
+		58CE816B060A41D32CEC095441D0E3E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -603,10 +609,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -614,6 +622,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -622,6 +631,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -642,15 +652,111 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		DE1BA926BB843D75E8CA752A528B5115 /* Release */ = {
+		C8C927C44FCB0130DCF708B09BBB5C57 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A1B516DBDCA550CB8840A4C53E2EE21 /* FastMath.xcconfig */;
+			baseConfigurationReference = 60492413A6BE1B132006889F551740EC /* Pods-ProjectEulerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ProjectEulerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ProjectEulerTests/Pods-ProjectEulerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CDD92DEFB39476D5797A8428575ABAC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CF9DB5D11392B988CD912828763870F /* FastMath.unit.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FastMath/FastMath-Unit-Tests-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FastMath/FastMath-Unit-Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lswiftSwiftOnoneSupport",
+				);
+				PRODUCT_NAME = "FastMath-Unit-Tests";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4;
+			};
+			name = Debug;
+		};
+		E1AF9327D24C000E7A12F9AF9A18918E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C913C9F04FED368A1082BAE5EA001FC5 /* Pods-ProjectEulerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ProjectEulerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ProjectEulerTests/Pods-ProjectEulerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EE22229FB62713707D48BE0EC8E6726B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFECE4C817F6BF25789275FBAC9467F6 /* FastMath.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -664,84 +770,16 @@
 				GCC_PREFIX_HEADER = "Target Support Files/FastMath/FastMath-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/FastMath/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/FastMath/FastMath.modulemap";
+				PRODUCT_MODULE_NAME = FastMath;
 				PRODUCT_NAME = FastMath;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E0614E5A57B236B24F1BFC34761CA944 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2AB6EE75D3DAAC3AB3F66E828E0D805B /* Pods-ProjectEulerTests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ProjectEulerTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ProjectEulerTests/Pods-ProjectEulerTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ProjectEulerTests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E53D4A1E92B437E71EBC48048DEEE2B1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 04BC93E0E65F98D7DA3C986395432E97 /* Pods-ProjectEulerTests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ProjectEulerTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ProjectEulerTests/Pods-ProjectEulerTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ProjectEulerTests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -754,8 +792,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7C07ED8089F70A31B83996A8910D7F18 /* Debug */,
-				98F29E7567052F62660DDD7069ADF73C /* Release */,
+				553022A828EE1991F07D2D73F565AEF8 /* Debug */,
+				58CE816B060A41D32CEC095441D0E3E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -763,8 +801,8 @@
 		8109F56509C314D8F14ABE5FDBA27360 /* Build configuration list for PBXNativeTarget "FastMath" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5C21BD42BC0804863458A378E9D68E75 /* Debug */,
-				DE1BA926BB843D75E8CA752A528B5115 /* Release */,
+				EE22229FB62713707D48BE0EC8E6726B /* Debug */,
+				11334CD2480087C51D88D6C7477D7B5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -772,8 +810,8 @@
 		E3C9C5A67656666FE1FF24308F6E91E2 /* Build configuration list for PBXNativeTarget "Pods-ProjectEulerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E53D4A1E92B437E71EBC48048DEEE2B1 /* Debug */,
-				E0614E5A57B236B24F1BFC34761CA944 /* Release */,
+				C8C927C44FCB0130DCF708B09BBB5C57 /* Debug */,
+				E1AF9327D24C000E7A12F9AF9A18918E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -781,8 +819,8 @@
 		EBA8DF3B12F1DC6CEC5ACD2F23A8813A /* Build configuration list for PBXNativeTarget "FastMath-Unit-Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				226EE49F370058171F5A5FAFA2E8D273 /* Debug */,
-				5D93140E4FBA88A4245734D14394193A /* Release */,
+				CDD92DEFB39476D5797A8428575ABAC8 /* Debug */,
+				3A7EF68DCD0A5CB4C2AA4CC9B6BE06F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
